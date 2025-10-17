@@ -61,5 +61,12 @@ public class DrawbacksArray {
         // Sattu : 77
         // Priyatam : 90
 
+        // in this for-each loop we do not define it as int , || use the class type as
+        // STUDENT
+
+        for (Student s : student) {
+            System.out.println(s.name + ": " + s.marks);
+        }
+
     }
 }
