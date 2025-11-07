@@ -17,7 +17,7 @@ class Computer {
 }
 
 // Calculator class with overloaded add methods
-class Calculator {
+class Calculator2 {
     // Add three integers
     public int add(int n1, int n2, int n3) {
         return n1 + n2 + n3;
@@ -45,7 +45,7 @@ public class MethodsObj {
         System.out.println(str); // Prints the result ("Nothing")
 
         // Create an instance of Calculator
-        Calculator calc = new Calculator();
+        Calculator2 calc = new Calculator2();
 
         int res = calc.add(4, 6); // Calls add method with two integers
         System.out.println(res); // Prints the result (10)

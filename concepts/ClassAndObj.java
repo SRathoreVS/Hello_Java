@@ -1,7 +1,7 @@
 package concepts;
 
 //design ,Blueprint
-class Calculator {
+class Calculator1 {
 
     int a;
 
@@ -22,9 +22,9 @@ public class ClassAndObj {
         int result = num1 + num2;
         System.out.println(result);
 
-        // how to call the the method
+        // how to call the method
         // create the instance , Object create using NEW keyword
-        // its a variable || reference variable
+        // it a variable || reference variable
         Calculator calc = new Calculator();
 
         // call
@@ -33,7 +33,7 @@ public class ClassAndObj {
     }
 }
 
-// Object - properies and behaviour
+// Object - properties and behaviour
 
 // if you want to create object , you need to create the Class .
 // class will act as Blueprint
