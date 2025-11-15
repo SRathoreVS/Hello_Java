@@ -4,6 +4,7 @@ package oopsInJava.digest;
 
 public class Cat extends Animal{
     String breed;
+     public String name;
 
     public void makeSound() {
         System.out.println("Meowww");
